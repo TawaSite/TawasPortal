@@ -1,0 +1,214 @@
+body {
+    margin: 16;
+}
+
+
+
+.header-image {
+background-image: url(“https://i.ibb.co/8xbVM48/Screenshot-2024-01-29-at-18-04-29.png”);
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: top;
+    margin-right: 10px;
+}
+
+nav a {
+    display: block;
+    background-color: #000000;
+    color: #FF7323;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #FF7323;
+    color: black;
+}
+
+
+
+
+
+.myHeader {
+    background-color: black;
+    padding: 30px;
+    color: #FF7323;
+    text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+.side-menu {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    padding-top: 20px;
+    border-right: 5px solid #FF7323; 
+    overflow-y: auto;
+    transition: width 0.3s; 
+
+}
+
+.side-menu a {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #FF7323;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.side-menu a:hover {
+    color: #000000;
+    background-color: #FF7323;
+}
+
+
+
+
+.side-menu::-webkit-scrollbar {
+    width: 8px; 
+    height: 50px; 
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+    background-color: #FF7323; 
+}
+
+.side-menu::-webkit-scrollbar-track {
+    background-color: #111;
+
+}
+
+
+
+
+}
+
+.nav-link {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #f1f1f1;
+}
+
+
+.hover-box {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+}
+
+.content {
+    margin-left: 275px;
+    padding: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .side-menu {
+        width: 150px;
+    }
+
+    .content {
+        margin-left: 150px;
+    }
+    
+    .myHeader {
+        margin-left: 150px;
+        font-size: 0.8em;
+    }
+    
+    .side-menu::-webkit-scrollbar {
+    width: 6px; 
+        
+    }
+}
+
+
+
+    
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s; 
+  padding: 20px;
+}
+
+
+
+
+.mobile-header {
+    padding: 6px 8px 9px 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 14px 5px 11px;
+    border-radius: 32px;
+}
+
+.mobile-header-top {
+    display: block;
+    height: 50px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
